@@ -1,0 +1,34 @@
+
+	<div class="container">
+  	 <div class="row">
+    		<div class="col col1">Column 1</div>
+                <div class="col col2">Column 2</div>
+    		<div class="col col3">Column 3</div>
+    		<div class="col col4">Column 4</div>
+    		<div class="col col5">Column 5</div>
+  	</div>
+	</div>
+
+
+<----------- css --------------->
+
+.col1 {
+  background-color: red;
+}
+.col2 {
+  background-color: green;
+}
+.col3 {
+  background-color: blue;
+}
+.col4 {
+  background-color: orange;
+}
+.col5 {
+  background-color: brown;
+}
+
+
+<----------------------------------------------------------- link --------------------------------->
+
+https://codepen.io/RyArush/pen/mPQGOG

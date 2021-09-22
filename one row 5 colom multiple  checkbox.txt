@@ -1,0 +1,133 @@
+
+
+
+<label for="exampleFormControlSelect1">If yes, who is using your rooftop?</label>
+                    <div class="row request-check-box-div d-flex justify-content-center">
+                        <div class="col-md-3 pl-0 pr-0">
+                            <ul>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> AT&T
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> Leap/Cricket
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> American Tower
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 pl-0 pr-0">
+                            <ul>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> Verizon
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> Ntellos
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> Crown Castle
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col pl-0 pr-0">
+                            <ul>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> Sprint
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> C-Spire
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> SBA
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col pl-0 pr-0">
+                            <ul>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> Sprint
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> C-Spire
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> SBA
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col pl-0 pr-0">
+                            <ul>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> Sprint
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> C-Spire
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="radio-inline">
+                                        <input type="checkbox" name="optradio"> SBA
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+<------------- css ----------------->
+
+.request-check-box-div ul
+{
+     list-style-type: none;
+     padding-left: 0px;
+}
+
+.row.request-check-box-div.d-flex.justify-content-center {
+    margin-left: 0px;
+}
+
+
+label.radio-inline {
+    padding-right: 26px;
+    font-size: 14px;
+}
+.request-btn
+{
+     margin-top: 50px;
+}

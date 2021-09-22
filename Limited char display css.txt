@@ -1,0 +1,11 @@
+.text {
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+<span class="text">Hello world this is a long sentence</span>
+
+
+Limited charcarter show

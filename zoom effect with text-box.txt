@@ -1,0 +1,144 @@
+<div class="buy-car-div mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 pl-0 pr-0">
+                    <div class="car-box-one zoom">
+                        <div class="buy-car-text-div">
+
+                            <h1>Buy Your Dream Car</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                            <button type="button" class="btn btn-primary">Search car</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pl-0 pr-0">
+                    <div class="car-box-two zoom">
+                        <div class="buy-car-text-div">
+
+                            <h1>Best Place to Sell Your Car</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                            <button type="button" class="btn btn-primary">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<-------------------------- css ------------------------>
+
+ .buy-car-div .car-box-one {
+     background-image: url('../../image/buy-car-img1.png');
+     height: 417px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+     position: relative;
+}
+ .buy-car-div .car-box-two {
+     background-image: url('../../image/buy-car-img2.png');
+     height: 417px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+}
+ .buy-car-text-div {
+     position: absolute;
+     top: 90px;
+     left: 200px;
+     right: 140px;
+}
+ .buy-car-text-div h1 {
+     color: white;
+}
+ .buy-car-text-div p {
+     color: white;
+     text-align: justify;
+}
+ .buy-car-text-div button {
+     background-color: transparent;
+     border: 1px solid white;
+     padding: 8px 25px;
+}
+ .buy-car-text-div button:hover {
+     background-color: transparent;
+     border: 1px solid white;
+}
+ .zoom {
+     transition: transform .2s;
+     margin: 0 auto;
+}
+ .zoom:hover {
+     -ms-transform: scale(1.1);
+    /* IE 9 */
+     -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+     transform: scale(1.1);
+}
+ @media only screen and (min-width: 310px) and (max-width: 767px) {
+     .buy-car-text-div {
+         position: absolute;
+         top: 14px;
+         left: 45px;
+         right: 50px;
+    }
+     .buy-car-text-div h1 {
+         color: white;
+         font-size: 30px;
+    }
+     .buy-car-text-div p {
+         color: white;
+         text-align: justify;
+         font-size: 14px;
+    }
+}
+ @media only screen and (min-width: 768px) and (max-width: 1440px) {
+     .buy-car-text-div {
+         position: absolute;
+         top: 40px;
+         left: 45px;
+         right: 50px;
+    }
+     .buy-car-text-div h1 {
+         color: white;
+         font-size: 38px;
+    }
+     .buy-car-text-div p {
+         color: white;
+         text-align: justify;
+         font-size: 15px;
+    }
+}
+ @media only screen and (min-width: 1441px) and (max-width: 1553px) {
+     .buy-car-text-div {
+         position: absolute;
+         top: 75px;
+         left: 80px;
+         right: 80px;
+    }
+     .buy-car-text-div h1 {
+         color: white;
+         font-size: 42px;
+    }
+     .buy-car-text-div p {
+         color: white;
+         text-align: justify;
+         font-size: 16px;
+    }
+}
+
+
+
+
+
+

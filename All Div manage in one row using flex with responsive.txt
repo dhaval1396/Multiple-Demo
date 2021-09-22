@@ -1,0 +1,7 @@
+
+All Div manage in one row using flex with responsive
+
+https://www.w3schools.com/cssref/playit.asp?filename=playcss_justify-content&preval=space-between
+
+
+https://www.w3schools.com/cssref/css3_pr_justify-content.asp

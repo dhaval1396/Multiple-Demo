@@ -1,0 +1,27 @@
+--> select box arrow remove css
+
+				.selectParent select {
+				    -webkit-appearance: none;
+				    -moz-appearance: none;
+				    text-indent: 1px;
+				    text-overflow: '';
+				}	
+
+
+-->  Add new arrow select box css
+
+				.selectParent:after {
+				    font-family: FontAwesome;
+				    content: '\f107';
+				    font-size: 30px;
+				     padding: 0px; 
+				    position: absolute;
+				    right: 23px;
+				    top: 4px;
+				    color: white;
+				    z-index: 1;
+				    text-align: center;
+				    width: 10%;
+				    height: 100%;
+				    pointer-events: none;
+				}	

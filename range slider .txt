@@ -1,0 +1,76 @@
+https://jqueryui.com/slider/#range
+
+
+
+<------------------ html ---------------------->
+
+<div class="slidecontainer">
+       <div id="slider-range"></div>
+         <p class="text-center mt-3">
+             <label for="amount">Price range:</label>
+               <input type="text" id="amount" readonly>
+         </p>
+                        
+ </div>
+
+
+<------------------- css -------------------------->
+
+ .slidecontainer {
+     width: 100%;
+}
+.slidecontainer .text-center #amount
+{
+    background-color: transparent;
+    color: #282828;
+    border: 0px;
+    font-weight: 500;
+}
+.slidecontainer .text-center label {
+    font-weight: 500;
+    color: #282828;
+}
+.slidecontainer span.ui-slider-handle.ui-corner-all.ui-state-default {
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: #3085e2;
+    height: 24px;
+    width: 22px;
+}
+.slidecontainer .ui-slider-range.ui-corner-all.ui-widget-header {
+    background-color: #3085e2;
+}
+.slidecontainer .ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5;
+    height: 20px;
+    border-radius: 50px;
+}
+
+
+<--------------------- link ---------------------->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+
+<---------------- script ----------------------------->
+
+<script>
+  $( function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: [ 75, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+  } );
+  </script>
+

@@ -1,0 +1,23 @@
+ <ol class="carousel-indicators">
+     <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+     <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+     <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+ </ol>  
+
+
+............... css....................
+.about-us-testimonial .carousel-indicators li
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #999;
+}
+
+.about-us-testimonial ol.carousel-indicators {
+    
+    bottom: -45px;
+}
+.about-us-testimonial .carousel-indicators .active {
+    background-color: #777;
+}
